@@ -40,5 +40,5 @@ class AppCmf:
             diccnf[key] = lst
     return diccnf
 
-LibMid.dicprc.append({"key": "xoxxox.AppCmf.diccmf", "frm": "LibMid.plugin['xoxxox_libcmf'].AppCmf.diccmf()", "syn": True})
-LibMid.dicprc.append({"key": "xoxxox.AppCmf.dicsrv", "frm": "LibMid.plugin['xoxxox_libcmf'].AppCmf.dicsrv()", "syn": True})
+LibMid.dicprc["xoxxox.AppCmf.diccmf"] = {"frm": "xoxxox_libcmf.AppCmf.diccmf", "syn": True}
+LibMid.dicprc["xoxxox.AppCmf.dicsrv"] = {"frm": "xoxxox_libcmf.AppCmf.dicsrv", "syn": True}
